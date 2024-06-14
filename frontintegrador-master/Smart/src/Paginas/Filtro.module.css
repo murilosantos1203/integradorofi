@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+.conteiner {
+    display: flex;
+    height: auto;
+    padding: 40px;  
+    background-color: var(--cinza-claro);
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 30px;  
+    justify-content: center; /* Adicionando esta linha */
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cinza-claro);
+    padding: 30px;
+    border-radius: 10px;
+    font-family: "Questrial", sans-serif;
+
+}
+
+label {
+    margin-bottom: 10px;
+    color: var(--roxo-claro);
+}
+
+input[type="text"], input[type="checkbox"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid rgb(211, 211, 211);
+    font-size: 16px;
+}
+
+.botao {
+    background-color:rgba(66, 162, 170, 1) ;
+    color: white;
+    font-family: "Questrial", sans-serif;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 3%;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    border-color: white;
+}
+
+.conteiner > form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteiner > form > * {
+    flex: 1;
+    margin-right: 10px;
+}
